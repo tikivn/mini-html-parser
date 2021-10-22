@@ -52,7 +52,7 @@ Page({
 ```
 
 ```html
-<!-- page.axml -->
+<!-- page.txml -->
 <rich-text nodes="{{nodes}}" />
 ```
 
