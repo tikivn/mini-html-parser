@@ -10,7 +10,7 @@ $ npm install @tiki.vn/mini-html-parser2 --save
 
 ```js
 // page.js
-import parse from 'mini-html-parser2';
+import parse from '@tiki.vn/mini-html-parser2';
 
 const html = `<div>
 <span>test</span>
