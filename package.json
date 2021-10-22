@@ -1,7 +1,7 @@
 {
-  "name": "mini-html-parser2",
-  "version": "0.3.0",
-  "description": "小程序富文本",
+  "name": "@tiki.vn/mini-html-parser2",
+  "version": "0.0.2",
+  "description": "Parse html string to nodes for rich-text",
   "repository": {
     "type": "git",
     "url": "git@github.com:ant-mini-program/mini-html-parser.git"
@@ -18,7 +18,9 @@
   "keywords": [
     "rich-text",
     "mini-program",
-    "html-parser"
+    "html-parser",
+    "tiniapp",
+    "miniapp"
   ],
   "author": "issac.lj@alibaba-inc.com",
   "devDependencies": {

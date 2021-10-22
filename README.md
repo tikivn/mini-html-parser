@@ -1,15 +1,17 @@
 # mini-html-parser2
 
-## 安装
+## Install
 
 ```
-$ npm install mini-html-parser2 --save
+$ npm install @tiki.vn/mini-html-parser2 --save
 ```
 
-## 使用
+## How to use
 
 ```js
 // page.js
+import parse from 'mini-html-parser2';
+
 const html = `<div>
 <span>test</span>
 <div>
@@ -32,7 +34,6 @@ const html = `<div>
     </table>
 </div>
 </div>`
-import parse from 'mini-html-parser2';
 
 Page({
   data: {
@@ -55,7 +56,7 @@ Page({
 <rich-text nodes="{{nodes}}" />
 ```
 
-## 运行测试
+## Build and test
 
 ```
 $ npm run build
